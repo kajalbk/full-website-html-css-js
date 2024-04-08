@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(90deg, rgb(233, 183, 183), skyblue);
+
+}
+
+#back {
+    display: inline-flex;
+    color: azure;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
+#next {
+    display: inline-flex;
+    color: white;
+    float: inline-end;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
+.container {
+    display: flexbox;
+    text-align: center;
+}
+
+.row {
+
+    margin-top: 10rem;
+}
+
+.head {
+    font-size: 70px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 20px;
+}
+
+.head:hover {
+    color: red;
+
+}
+
+.item {
+    margin-top: 10rem;
+}
+
+.item span {
+    font-size: 30px;
+    display: flexbox;
+    background-color: rgb(236, 224, 247);
+    padding: 20px;
+    margin-right: 40px;
+    border-radius: 5rem;
+    margin-top: 10%;
+}
+
+.item span:hover {
+    padding: 35px;
+    font-size: 32px;
+    background-color: rgb(215, 236, 183);
+    box-shadow: 0 0 35px blue, 0 0 35px blue;
+    color: blue;
+}
+
+span i {
+    color: red;
+    padding-right: 1rem;
+}
+
+span i:hover {
+    color: brown;
+}
+
+.item2 {
+
+    height: 800px;
+}
+
+input {
+    margin-top: 3rem;
+    margin-right: 5rem;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 20rem;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+}
+
+input:focus {
+    box-shadow: 0 0 25px black;
+}
+
+input:hover {
+    box-shadow: 0 0 25px black;
+}
+
+li {
+    display: flex;
+    list-style-type: none;
+    margin-top: 3rem;
+    margin-left: 25%;
+}
+
+textarea {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+
+}
+
+textarea:focus {
+    box-shadow: 0 0 25px black;
+}
+
+textarea:hover {
+    box-shadow: 0 0 25px black;
+}
+
+button {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 50px;
+    border: 2px solid rgb(21, 228, 228);
+    outline: 0;
+    background-image: linear-gradient(rgb(243, 153, 153), rgb(169, 169, 238));
+    color: rgb(16, 94, 19);
+    text-transform: capitalize;
+}
+
+button:hover {
+    padding: 30px;
+    border: 0;
+    box-shadow: 0 0 25px aqua, 0 0 25px aqua;
+}

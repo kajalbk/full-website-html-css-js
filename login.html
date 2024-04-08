@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #back {
+        display: inline-flex;
+        color: azure;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        background-color: aqua;
+        border-radius: 7px;
+    }
+
+    #next {
+        display: inline-flex;
+        color: white;
+        float: inline-end;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        background-color: aqua;
+        border-radius: 7px;
+    }
+
+
+    .container {
+        text-align: center;
+        display: flexbox;
+        background-color: rgb(233, 168, 84);
+        margin-top: 20px;
+        margin-left: 25%;
+        border-radius: 10px;
+        width: 50%;
+        height: auto;
+        box-shadow: 0 0 20px black;
+
+    }
+
+    form h1 {
+        font-size: 50px;
+        text-transform: uppercase;
+        padding: 20px;
+    }
+
+    form {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    input {
+        padding: 5px 20px 5px 20px;
+        margin-left: 10px;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+
+    }
+
+    button {
+        padding: 5px;
+        font-size: 20px;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        color: rgb(31, 4, 4);
+        background-color: aquamarine;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: rgb(248, 190, 167);
+        color: rgb(49, 19, 77);
+    }
+
+    a {
+        text-decoration: none;
+        color: aliceblue;
+        text-transform: capitalize;
+    }
+</style>
+
+<body>
+    <a href="contactus.html" id="back">Back</a>
+    <a href="register.html" id="next">Next</a>
+    <div class="container">
+        <form action="">
+            <h1>Login form</h1>
+            Name: <input type="text" placeholder="Enter Your Name"><br><br>
+            Password: <input type="text" placeholder="Enter Your Password"><br><br>
+            <button type="submit">submit</button>
+            <br><br> <span>forget Password<a href="changepass.html"> click here</a></span>
+            <span>if you don't have acount! create new acount<a href="register.html"> create new acount</a></span>
+        </form>
+    </div>
+
+</body>
+
+</html>

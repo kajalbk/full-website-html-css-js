@@ -1,0 +1,131 @@
+body {
+    background-image: linear-gradient(rgb(245, 172, 245), rgb(166, 245, 166));
+    background-repeat: no-repeat;
+
+}
+
+#back {
+    display: inline-flex;
+    color: azure;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
+#next {
+    display: inline-flex;
+    color: white;
+    float: inline-end;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
+h1 {
+    text-transform: uppercase;
+    background-color: aqua;
+    display: flexbox;
+    padding-left: 40%;
+    position: relative;
+}
+
+div {
+    display: flexbox;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    display: flexbox;
+    margin-left: 3rem;
+    padding: 10px;
+    padding-bottom: 25px;
+
+}
+
+#btn1 {
+
+    font-size: 20px;
+    position: absolute;
+    top: 95px;
+    left: 36%;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    background-color: red;
+    color: yellow;
+}
+
+#btn1:hover {
+    background-color: rgb(7, 110, 76);
+}
+
+#btn2 {
+    margin-left: -14%;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    background-color: red;
+    color: yellow;
+}
+
+#btn2:hover {
+    background-color: rgb(7, 110, 76);
+}
+
+.imgdiv1 {
+    margin-left: 20rem;
+}
+
+.imgdiv3 {
+    margin-left: 40rem;
+}
+
+.imgdiv4 {
+    margin-left: 60rem;
+}
+
+.imgdiv5 {
+    margin-left: 80rem;
+}
+
+.imgdiv6 {
+    margin-left: 60rem;
+}
+
+.imgdiv7 {
+    margin-left: 40rem;
+}
+
+.imgdiv8 {
+    margin-left: 20rem;
+}
+
+.img10 {
+    margin-left: 20rem;
+}
+
+.img11 {
+    margin-left: 40rem;
+}
+
+.img12 {
+    margin-left: 60rem;
+}
+
+.img13 {
+    margin-left: 80rem;
+}
+
+.img14 {
+    margin-left: 60rem;
+}
